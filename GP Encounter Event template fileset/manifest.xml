@@ -1,0 +1,221 @@
+<templateFileSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.openehr.org/v1">
+   <cid>1051.57.13</cid>
+   <versionAsset>2</versionAsset>
+   <templateName>GP Encounter Event - LCR (Composition)</templateName>
+   <templateId>a494b0f7-5198-4139-bd6b-7bd826d9aec5</templateId>
+   <rootArchetypeId>openEHR-EHR-COMPOSITION.encounter.v1</rootArchetypeId>
+   <creationTime>24-Sep-2013</creationTime>
+   <modificationTime>29-Oct-2013</modificationTime>
+   <directLink>http://ckm.apperta.org/ckm/#showTemplate_1051.57.13_2</directLink>
+   <logMessage>Added Duration datatype to Course Duration.</logMessage>
+   <ckmResource>
+      <cid>1051.32.109</cid>
+      <versionAsset>1</versionAsset>
+      <resourceMainId>openEHR-EHR-EVALUATION.problem_diagnosis.v1</resourceMainId>
+      <resourceMainDisplayName>Problem/Diagnosis</resourceMainDisplayName>
+      <resourceType>ARCHETYPE</resourceType>
+      <creationTime>2013-09-03T18:39:57+0200</creationTime>
+      <modificationTime>2013-09-03T18:39:57+0200</modificationTime>
+      <directLink>http://ckm.apperta.org/ckm/#showArchetype_1051.32.109_1</directLink>
+   </ckmResource>
+   <ckmResource>
+      <cid>1051.32.126</cid>
+      <versionAsset>2</versionAsset>
+      <resourceMainId>openEHR-EHR-EVALUATION.exclusion-problem_diagnosis.v1</resourceMainId>
+      <resourceMainDisplayName>Exclusion of a Problem/Diagnosis</resourceMainDisplayName>
+      <resourceType>ARCHETYPE</resourceType>
+      <creationTime>2013-09-03T18:40:22+0200</creationTime>
+      <modificationTime>2013-10-29T21:03:15+0100</modificationTime>
+      <directLink>http://ckm.apperta.org/ckm/#showArchetype_1051.32.126_2</directLink>
+   </ckmResource>
+   <ckmResource>
+      <cid>1051.32.105</cid>
+      <versionAsset>2</versionAsset>
+      <resourceMainId>openEHR-EHR-EVALUATION.exclusion-procedure.v1</resourceMainId>
+      <resourceMainDisplayName>Exclusion of a Procedure</resourceMainDisplayName>
+      <resourceType>ARCHETYPE</resourceType>
+      <creationTime>2013-09-03T18:39:52+0200</creationTime>
+      <modificationTime>2013-10-29T23:46:33+0100</modificationTime>
+      <directLink>http://ckm.apperta.org/ckm/#showArchetype_1051.32.105_2</directLink>
+   </ckmResource>
+   <ckmResource>
+      <cid>1051.32.106</cid>
+      <versionAsset>1</versionAsset>
+      <resourceMainId>openEHR-EHR-CLUSTER.problem_status.v1</resourceMainId>
+      <resourceMainDisplayName>Problem/Diagnosis qualifier</resourceMainDisplayName>
+      <resourceType>ARCHETYPE</resourceType>
+      <creationTime>2013-09-03T18:39:53+0200</creationTime>
+      <modificationTime>2013-09-03T18:39:53+0200</modificationTime>
+      <directLink>http://ckm.apperta.org/ckm/#showArchetype_1051.32.106_1</directLink>
+   </ckmResource>
+   <ckmResource>
+      <cid>1051.32.133</cid>
+      <versionAsset>2</versionAsset>
+      <resourceMainId>openEHR-EHR-ACTION.procedure.v1</resourceMainId>
+      <resourceMainDisplayName>Procedure</resourceMainDisplayName>
+      <resourceType>ARCHETYPE</resourceType>
+      <creationTime>2013-09-03T18:40:31+0200</creationTime>
+      <modificationTime>2013-09-24T14:57:18+0200</modificationTime>
+      <directLink>http://ckm.apperta.org/ckm/#showArchetype_1051.32.133_2</directLink>
+   </ckmResource>
+   <ckmResource>
+      <cid>1051.32.144</cid>
+      <versionAsset>1</versionAsset>
+      <resourceMainId>openEHR-EHR-SECTION.openhr_heading.v1</resourceMainId>
+      <resourceMainDisplayName>openHR heading</resourceMainDisplayName>
+      <resourceType>ARCHETYPE</resourceType>
+      <creationTime>2013-09-04T11:55:37+0200</creationTime>
+      <modificationTime>2013-09-04T11:55:37+0200</modificationTime>
+      <directLink>http://ckm.apperta.org/ckm/#showArchetype_1051.32.144_1</directLink>
+   </ckmResource>
+   <ckmResource>
+      <cid>1051.32.145</cid>
+      <versionAsset>1</versionAsset>
+      <resourceMainId>openEHR-EHR-SECTION.openhr_medication_events.v1</resourceMainId>
+      <resourceMainDisplayName>openHR Medication Events</resourceMainDisplayName>
+      <resourceType>ARCHETYPE</resourceType>
+      <creationTime>2013-09-04T11:56:23+0200</creationTime>
+      <modificationTime>2013-09-04T11:56:23+0200</modificationTime>
+      <directLink>http://ckm.apperta.org/ckm/#showArchetype_1051.32.145_1</directLink>
+   </ckmResource>
+   <ckmResource>
+      <cid>1051.32.169</cid>
+      <versionAsset>1</versionAsset>
+      <resourceMainId>openEHR-EHR-SECTION.adhoc.v1</resourceMainId>
+      <resourceMainDisplayName>Ad hoc heading</resourceMainDisplayName>
+      <resourceType>ARCHETYPE</resourceType>
+      <creationTime>2013-09-05T17:51:04+0200</creationTime>
+      <modificationTime>2013-09-05T17:51:04+0200</modificationTime>
+      <directLink>http://ckm.apperta.org/ckm/#showArchetype_1051.32.169_1</directLink>
+   </ckmResource>
+   <ckmResource>
+      <cid>1051.32.103</cid>
+      <versionAsset>1</versionAsset>
+      <resourceMainId>openEHR-EHR-EVALUATION.contraindication.v1</resourceMainId>
+      <resourceMainDisplayName>Contraindication</resourceMainDisplayName>
+      <resourceType>ARCHETYPE</resourceType>
+      <creationTime>2013-09-03T18:39:50+0200</creationTime>
+      <modificationTime>2013-09-03T18:39:50+0200</modificationTime>
+      <directLink>http://ckm.apperta.org/ckm/#showArchetype_1051.32.103_1</directLink>
+   </ckmResource>
+   <ckmResource>
+      <cid>1051.32.140</cid>
+      <versionAsset>1</versionAsset>
+      <resourceMainId>openEHR-EHR-CLUSTER.medication_status.v1</resourceMainId>
+      <resourceMainDisplayName>Medication event summary</resourceMainDisplayName>
+      <resourceType>ARCHETYPE</resourceType>
+      <creationTime>2013-09-03T19:21:47+0200</creationTime>
+      <modificationTime>2013-09-03T19:21:47+0200</modificationTime>
+      <directLink>http://ckm.apperta.org/ckm/#showArchetype_1051.32.140_1</directLink>
+   </ckmResource>
+   <ckmResource>
+      <cid>1051.32.151</cid>
+      <versionAsset>2</versionAsset>
+      <resourceMainId>openEHR-EHR-SECTION.adverse_list.v1</resourceMainId>
+      <resourceMainDisplayName>Adverse Reaction List</resourceMainDisplayName>
+      <resourceType>ARCHETYPE</resourceType>
+      <creationTime>2013-09-04T12:19:14+0200</creationTime>
+      <modificationTime>2013-10-29T23:46:32+0100</modificationTime>
+      <directLink>http://ckm.apperta.org/ckm/#showArchetype_1051.32.151_2</directLink>
+   </ckmResource>
+   <ckmResource>
+      <cid>1051.32.143</cid>
+      <versionAsset>1</versionAsset>
+      <resourceMainId>openEHR-EHR-ACTION.immunisation_procedure.v1</resourceMainId>
+      <resourceMainDisplayName>Immunisation procedure</resourceMainDisplayName>
+      <resourceType>ARCHETYPE</resourceType>
+      <creationTime>2013-09-03T21:15:04+0200</creationTime>
+      <modificationTime>2013-09-03T21:15:04+0200</modificationTime>
+      <directLink>http://ckm.apperta.org/ckm/#showArchetype_1051.32.143_1</directLink>
+   </ckmResource>
+   <ckmResource>
+      <cid>1051.32.32</cid>
+      <versionAsset>6</versionAsset>
+      <resourceMainId>openEHR-EHR-INSTRUCTION.medication_order_uk.v1</resourceMainId>
+      <resourceMainDisplayName>Medication order</resourceMainDisplayName>
+      <resourceType>ARCHETYPE</resourceType>
+      <creationTime>2013-02-12T17:23:57+0100</creationTime>
+      <modificationTime>2013-10-29T23:51:51+0100</modificationTime>
+      <directLink>http://ckm.apperta.org/ckm/#showArchetype_1051.32.32_6</directLink>
+   </ckmResource>
+   <ckmResource>
+      <cid>1051.32.171</cid>
+      <versionAsset>2</versionAsset>
+      <resourceMainId>openEHR-EHR-COMPOSITION.encounter.v1</resourceMainId>
+      <resourceMainDisplayName>Encounter</resourceMainDisplayName>
+      <resourceType>ARCHETYPE</resourceType>
+      <creationTime>2013-09-05T18:29:06+0200</creationTime>
+      <modificationTime>2013-09-24T14:57:05+0200</modificationTime>
+      <directLink>http://ckm.apperta.org/ckm/#showArchetype_1051.32.171_2</directLink>
+   </ckmResource>
+   <ckmResource>
+      <cid>1051.32.33</cid>
+      <versionAsset>3</versionAsset>
+      <resourceMainId>openEHR-EHR-ACTION.medication_action.v1</resourceMainId>
+      <resourceMainDisplayName>Medication action</resourceMainDisplayName>
+      <resourceType>ARCHETYPE</resourceType>
+      <creationTime>2013-02-12T17:25:48+0100</creationTime>
+      <modificationTime>2013-09-03T19:29:28+0200</modificationTime>
+      <directLink>http://ckm.apperta.org/ckm/#showArchetype_1051.32.33_3</directLink>
+   </ckmResource>
+   <ckmResource>
+      <cid>1051.32.25</cid>
+      <versionAsset>3</versionAsset>
+      <resourceMainId>openEHR-EHR-CLUSTER.medication_quantity_sct.v1</resourceMainId>
+      <resourceMainDisplayName>Medication quantity</resourceMainDisplayName>
+      <resourceType>ARCHETYPE</resourceType>
+      <creationTime>2013-01-30T20:47:44+0100</creationTime>
+      <modificationTime>2013-09-04T13:53:43+0200</modificationTime>
+      <directLink>http://ckm.apperta.org/ckm/#showArchetype_1051.32.25_3</directLink>
+   </ckmResource>
+   <ckmResource>
+      <cid>1051.32.26</cid>
+      <versionAsset>4</versionAsset>
+      <resourceMainId>openEHR-EHR-CLUSTER.medication_event.v1</resourceMainId>
+      <resourceMainDisplayName>Medication event</resourceMainDisplayName>
+      <resourceType>ARCHETYPE</resourceType>
+      <creationTime>2013-01-30T21:06:47+0100</creationTime>
+      <modificationTime>2013-09-03T19:03:59+0200</modificationTime>
+      <directLink>http://ckm.apperta.org/ckm/#showArchetype_1051.32.26_4</directLink>
+   </ckmResource>
+   <ckmResource>
+      <cid>1051.32.92</cid>
+      <versionAsset>2</versionAsset>
+      <resourceMainId>openEHR-EHR-EVALUATION.exclusion-adverse_reaction.v1</resourceMainId>
+      <resourceMainDisplayName>Exclusion of an Adverse Reaction</resourceMainDisplayName>
+      <resourceType>ARCHETYPE</resourceType>
+      <creationTime>2013-09-03T18:39:31+0200</creationTime>
+      <modificationTime>2013-10-29T21:03:07+0100</modificationTime>
+      <directLink>http://ckm.apperta.org/ckm/#showArchetype_1051.32.92_2</directLink>
+   </ckmResource>
+   <ckmResource>
+      <cid>1051.32.71</cid>
+      <versionAsset>1</versionAsset>
+      <resourceMainId>openEHR-EHR-CLUSTER.gp_contact_event_context.v1</resourceMainId>
+      <resourceMainDisplayName>GP contact event context</resourceMainDisplayName>
+      <resourceType>ARCHETYPE</resourceType>
+      <creationTime>2013-08-06T01:57:17+0200</creationTime>
+      <modificationTime>2013-08-06T01:57:17+0200</modificationTime>
+      <directLink>http://ckm.apperta.org/ckm/#showArchetype_1051.32.71_1</directLink>
+   </ckmResource>
+   <ckmResource>
+      <cid>1051.32.4</cid>
+      <versionAsset>9</versionAsset>
+      <resourceMainId>openEHR-EHR-EVALUATION.adverse_reaction_uk.v1</resourceMainId>
+      <resourceMainDisplayName>Adverse reaction</resourceMainDisplayName>
+      <resourceType>ARCHETYPE</resourceType>
+      <creationTime>2012-11-05T20:32:43+0100</creationTime>
+      <modificationTime>2013-09-03T13:06:08+0200</modificationTime>
+      <directLink>http://ckm.apperta.org/ckm/#showArchetype_1051.32.4_9</directLink>
+   </ckmResource>
+   <ckmResource>
+      <cid>1051.32.3</cid>
+      <versionAsset>7</versionAsset>
+      <resourceMainId>openEHR-EHR-CLUSTER.medication_item.v1</resourceMainId>
+      <resourceMainDisplayName>Medication item</resourceMainDisplayName>
+      <resourceType>ARCHETYPE</resourceType>
+      <creationTime>2012-11-05T00:19:35+0100</creationTime>
+      <modificationTime>2013-09-04T14:44:15+0200</modificationTime>
+      <directLink>http://ckm.apperta.org/ckm/#showArchetype_1051.32.3_7</directLink>
+   </ckmResource>
+</templateFileSet>

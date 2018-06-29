@@ -1,0 +1,2 @@
+This is the template file set for template GP Encounter Event - LCR (Composition)( a494b0f7-5198-4139-bd6b-7bd826d9aec5, revision 2), exported from the Clinical Knowledge Manager.
+Export time: Fri Jun 29 19:58:20 CEST 2018
